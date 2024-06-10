@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        background-color: #ffffff;
+        color: #ff4949;
+        overflow-x: hidden;
+      }
+      .dark-mode {
+        background-color: #212121;
+        color: #ffffff;
+      }
+
+      ::-webkit-scrollbar {
+        width: 10px; /* Ancho del scroll */
+      }
+
+      ::-webkit-scrollbar-track {
+        background-color: #fff; /* Color del fondo del scroll */
+      }
+
+      ::-webkit-scrollbar-thumb {
+        height: 500px;
+        background-color: #ff4949; /* Color de la barra de desplazamiento */
+      }
+      .form-check-input[type="checkbox"]:checked {
+  background-color: black;
+  border-color: black;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+.form-check-input[type="checkbox"]:checked + .form-check-label::before {
+  border-color: black;
+}
+
+    </style>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+      integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+      crossorigin="anonymous"
+    ></script>
+    <title>QUIMICA</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="myNav">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a
+          class="navbar-brand"
+          style="margin-left: 25px; font-weight: bolder"
+          >QUIMICA</a>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarTogglerDemo03" 
+        >
+          <ul class="navbar-nav"  >
+            <li class="nav-item" style="margin-right: 20px">
+              <a class="nav-link" href="#a">Derivados</a>
+            </li>
+            <li class="nav-item" style="margin-right: 20px">
+              <a class="nav-link" href="#b">Propiedades</a>
+            </li>
+            <li class="nav-item" style="margin-right: 20px">
+              <a class="nav-link" href="#c">Polimeros</a>
+            </li>
+            <li class="nav-item" style="margin-right: 20px">
+              <a class="nav-link" href="#d">Usos</a>
+            </li>
+            <li style="margin-top: 10px;" class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" >
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+
+      
+    </nav>
+
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+          style="max-height: 600px;min-height: 400px;"
+            src="https://quizizz.com/media/resource/gs/quizizz-media/quizzes/c8757c7e-e052-4507-b4f9-0a65b2fa6d26"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="Portada" style="text-align: center;">
+        <div class="Imagenes" style="display: flex; justify-content: center; align-items: center;"> 
+            <img style="height: 300px; width: 300px; margin-right:100px;" src="https://th.bing.com/th/id/OIP.3Bm7Hwb8QC2YP0tkK1gVEgHaJy?rs=1&pid=ImgDetMain" alt="">
+            <img style="height: 300px; width: 300px;" src="https://static.wixstatic.com/media/56e077_bb130ef92e0240d59a9c684b01980bd4~mv2.jpg/v1/fill/w_756,h_372,al_c,lg_1,q_80/56e077_bb130ef92e0240d59a9c684b01980bd4~mv2.jpg" alt="">
+        </div>
+        <br>
+        <h1>Tarea Quimica</h1>
+        <h2>Jhosuan Ali Gonzalez</h2>
+        <h3>12-2 A</h3>
+    </div>
+    
+    <div style="margin-top: 100px; margin: 0 25px" class="content content1" id="a">
+      <h1
+        class="text-center"
+        style="border-bottom: 1px solid gray; padding: 50px"
+      >
+        DERIVADOS DEL PETROLEO
+
+      </h1>
+      <p style="padding: 25px; text-align: center">
+        El petroleo es de origen fosil, producto de la transformacion de materia organica procedente del zooplancton y algas que, depositados en grandes cantidades en fondos anoxicos.
+        <br>
+        La refinacion del petroleo, tiene una gran influencia en nuestra vida cotidiana, como resultado se obtienen los siguientes derivados:
+      </p>
+      <div class="container">
+        <div class="row">
+          <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+            <div class="card" style="min-height: 400px; max-height: 400px;">
+                              <img style="min-height: 200px; max-height: 200px;"  src="https://th.bing.com/th/id/R.4f6b0045f05da018c965ec7ad14b783b?rik=Nfs%2bdd7BUX57%2bw&riu=http%3a%2f%2fmedia.cleveland.com%2fbusiness_impact%2fphoto%2fnatural-gas-flame-0df9a29331edbb76.jpg&ehk=DVzs3mzd9MI7TlMcwHBQEYcertitfhnrX8SRu%2bhNbMA%3d&risl=&pid=ImgRaw&r=0" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Gas Natural</h5>
+                <p class="card-text">Formado por una mezcla de gases, entre ellos el propano y el butano, que son empleados como combustibles.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+            <div class="card" style="min-height: 400px; max-height: 400px;">
+                              <img style="min-height: 200px; max-height: 200px;"  src="https://th.bing.com/th/id/OIP.RfDHSic_bi6rfBoVMQohpwHaFj?rs=1&pid=ImgDetMain" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Gasolina</h5>
+                <p class="card-text">Utilizada como combustible para automoviles y aereoplanos.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+            <div class="card" style="min-height: 400px; max-height: 400px;">
+                              <img style="min-height: 200px; max-height: 200px;"  src="https://www.sydneysolvents.com.au/assets/alt_1/SKERO1LTR.jpg?20201021085733" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Kerosene</h5>
+                <p class="card-text">Empleado como combustible para algunos motores y en la fabricacion de lamparas rurales.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+            <div class="card" style="min-height: 400px; max-height: 400px;">
+              <img style="min-height: 200px; max-height: 200px;"  src="https://th.bing.com/th/id/R.858b6a2391214296fb6261c663463e0b?rik=H0bC73zCn%2bFZlg&pid=ImgRaw&r=0" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Aceite lubricante</h5>
+                <p class="card-text">Empleado para engrasar piezas de maquinarias.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="container">
+        <div class="row">
+          <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+            <div class="card" style="min-height: 400px; max-height: 400px;">
+                              <img style="min-height: 200px; max-height: 200px;"  src="https://static.vecteezy.com/system/resources/previews/002/528/304/non_2x/asphalt-tarmac-texture-of-highway-road-background-photo.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Asfalto</h5>
+                <p class="card-text">Utilizado para pavimentar carreteras, impermeabilizar estructuras y fabricacion de baldosas y tejas.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+            <div class="card" style="min-height: 400px; max-height: 400px;">
+                              <img style="min-height: 200px; max-height: 200px;"  src="https://campograndeambiental.com.br/imagens/noticia/o-mercado-de-residuos-solidos180237.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Residuos Solidos</h5>
+                <p class="card-text">Constituyen la base de una serie de productos como ceras minerales y cremas.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+            <div class="card" style="min-height: 400px; max-height: 400px;">
+                              <img style="min-height: 200px; max-height: 200px;"  src="https://sooluciona.com/wp-content/uploads/2019/04/Diferencias-entre-caucho-y-pla%CC%81stico.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Caucho Sintetico</h5>
+                <p class="card-text">Usado en la industria automotriz.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+            <div class="card" style="min-height: 400px; max-height: 400px;">
+              <img style="min-height: 200px; max-height: 200px;"  src="https://jardigarcia.com/wp-content/uploads/2021/05/fertilizantes-2048x1367.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fertilizante</h5>
+                <p class="card-text">Empleados en el sector agricola.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="margin-top: 100px; margin: 0 25px" class="content content1" id="b">
+      <h1
+        class="text-center"
+        style="border-bottom: 1px solid gray; padding: 50px"
+      >
+        PROPIEDADES DEL ATOMO DE CARBONO
+
+      </h1>
+      <p style="padding: 25px; text-align: center">
+       Las propiedades de los elementos no metalicos como el carbono; es por ejemplo, que son malos conductores del calor y la electricidad. El carbono, al igual que los demas elementos no metales, no tiene lustre o brillo. Debido a su fragilidad, los no metales como el carbono, no se pueden aplanar para formar laminas ni estirados para convetirse en hilos. <br>
+       Otras propiedades del carbono son:
+      </p>
+      <div class="container">
+        <div class="row">
+          <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+            <div class="card" style="min-height: 400px; max-height: 400px;">
+                              <img style="min-height: 200px; max-height: 200px;"  src="https://img2.pngdownload.id/20180508/ope/kisspng-lewis-structure-methane-chemical-bond-valence-elec-5af25e2199dce5.4036126415258332496302.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Tetravalencia</h5>
+                <p class="card-text">El carbono siempre forma cuadro enlaces.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+            <div class="card" style="min-height: 400px; max-height: 400px;">
+                              <img style="min-height: 200px; max-height: 200px;"  src="https://es-puraquimica.weebly.com/uploads/6/1/9/4/6194280/9367955_orig.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Homocombinacion</h5>
+                <p class="card-text">Los atomos del carbono tienen la capacidad de unirse indefinidamente entre si, con enlaces sencillos, dobles o triples, formando largas cadenas y unirse con otros elementos.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+            <div class="card" style="min-height: 400px; max-height: 400px;">
+                              <img style="min-height: 200px; max-height: 200px;"  src="https://th.bing.com/th/id/R.e2dfb8132eeebcd829ebe36cbeae136c?rik=v0fjcb1d4ACJSQ&riu=http%3a%2f%2f1.bp.blogspot.com%2f-nQUkSQIjVy8%2fT--ASDiXaGI%2fAAAAAAAADUs%2fqsoeyqtV-b0%2fs1600%2fALOTROPIA.jpg&ehk=Uk6Xbw11QW94lhy2knELTS2Nkfb2G1JmXigVh9D6ne4%3d&risl=&pid=ImgRaw&r=0" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Alotropia</h5>
+                <p class="card-text">Es la propiedad que posee el atomo de carbono de presentarse en estructuras moleculares distintas.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+            <div class="card" style="min-height: 400px; max-height: 400px;">
+              <img style="min-height: 200px; max-height: 200px;"  src="https://www.researchgate.net/profile/Gaston-Gutierrez-Gamboa/publication/340793783/figure/download/fig2/AS:882514201698304@1587419190403/Figura-13-Estructura-general-de-un-aminoacido.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Anfoterismo</h5>
+                <p class="card-text">Propiedad del atomo de carbono que le permite unirse con otros elementos de mas o menos electronegatividad que el.</p>
+              </div>
+            </div>
+          </div>
+          <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+            <div class="card" style="min-height: 400px; max-height: 400px;">
+              <img style="min-height: 200px; max-height: 200px;"  src="https://assets.sutori.com/user-uploads/image/cb431d4e-4afb-4c60-b9db-e52dab159b97/4b702a016350bed3bf96e2bbdd599f17.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Hibridacion</h5>
+                <p class="card-text">Consiste en el reacomodo de electrones del mismo nivel de energia orbital s al orbital p del mismo nivel de energia</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="margin-top: 100px; margin: 0 25px" class="content content1" id="c">
+        <h1
+          class="text-center"
+          style="border-bottom: 1px solid gray; padding: 50px"
+        >
+           POLIMEROS ORGANICOS
+  
+        </h1>
+        <p style="padding: 25px; text-align: center">
+          Los polimeros organicos son compuestos formados por la union de dos o mas unidades moleculares carbonadas identicas que reciben el nombre de monomeros. La union de dos o mas monomeros da lugar a un dimero, la de tres a un trimero, y asi sucesivamente.
+          <br> Algunos polimeros organicos son:
+        </p>
+        <div class="container">
+          <div class="row">
+            <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+              <div class="card" style="min-height: 400px; max-height: 400px;">
+                                <img style="min-height: 200px; max-height: 200px;"  src="https://www.funcion.info/wp-content/uploads/2019/04/funcion-de-la-celulosa.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Celulosa</h5>
+                  <p class="card-text">Se encuentra en la madera y en los fallos de muchas plantas, y se emplean para hacer telas y papel.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+              <div class="card" style="min-height: 400px; max-height: 400px;">
+                                <img style="min-height: 200px; max-height: 200px;"  src="https://1.bp.blogspot.com/-DSitCuYvKYY/VdZJi199JyI/AAAAAAAADgA/Rtrkg4ii2uU/s1600/20150129_115549.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Seda</h5>
+                  <p class="card-text">Es otro polimero natural muy apreciado y es una poliamida semejante al nylon.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+              <div class="card" style="min-height: 400px; max-height: 400px;">
+                                <img style="min-height: 200px; max-height: 200px;"  src="https://talu.earth/wp-content/uploads/2023/02/13.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Lana</h5>
+                  <p class="card-text">Proteina del pelo de las ovejas, es ejemplo de un polimero natural.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+              <div class="card" style="min-height: 400px; max-height: 400px;">
+                <img style="min-height: 200px; max-height: 200px;"  src="https://www.hulesindustriales.mx/images/rollos-y-placas-de-hule/hule-neopreno.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Hule</h5>
+                  <p class="card-text">De los arboles de hevea y de los arbustos de Guayule.</p>
+                </div>
+              </div>
+            </div>
+            <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+              <div class="card" style="min-height: 400px; max-height: 400px;">
+                <img style="min-height: 200px; max-height: 200px;"  src="https://th.bing.com/th/id/R.bcf46c34937782787da1f0ec441cb40a?rik=u1wV%2f52GQSZJVA&riu=http%3a%2f%2fwww.escuelapedia.com%2fwp-content%2fuploads%2fEstructura-de-los-acidos-nucleicos.png&ehk=jBrmOwSQ61HPwSTVucwlccbN6j%2bFOTekhiLpzmHa9sM%3d&risl=&pid=ImgRaw&r=0" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Acidos nucleicos</h5>
+                  <p class="card-text">Como el ADN y ARN.</p>
+                </div>
+              </div>
+            </div>
+            <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+              <div class="card" style="min-height: 400px; max-height: 400px;">
+                <img style="min-height: 200px; max-height: 200px;"  src="https://culturacientifica.com/app/uploads/2014/06/De-las-enzimas.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Proteinas</h5>
+                  <p class="card-text">Algunas proteinas llamadas enzimas.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+    <div style="margin-top: 100px; margin: 0 25px" class="content content1" id="d">
+      <h1
+        class="text-center"
+        style="border-bottom: 1px solid gray; padding: 50px"
+      >
+      OTRAS APLICACIONES DELCARBOBNO
+
+      </h1>
+
+      <div class="container">
+        <div class="row">
+          <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+            <div class="card" style="min-height: 400px; max-height: 400px;">
+                              <img style="min-height: 200px; max-height: 200px;"  src="https://1.bp.blogspot.com/-8f7N7cMQnuI/WwZBzbXJKWI/AAAAAAAAZfo/s06RhnKnZnMO0ftNfEMAEECPVFe3Dx6AACLcBGAs/s1600/grafito.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">El grafito</h5>
+                <p class="card-text">El grafito se combina con  arcilla para fabricar las minas de los lapices.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+            <div class="card" style="min-height: 400px; max-height: 400px;">
+                              <img style="min-height: 200px; max-height: 200px;"  src="https://img2.rtve.es/imagenes/memoria-delfin-diamante-piedra-preciosa-mas-conocida-del-planeta/1612170049291.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">El diamante</h5>
+                <p class="card-text">El diamante se emplea para la construccion de joyas y como material de corte, aprovechando su dureza.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+            <div class="card" style="min-height: 400px; max-height: 400px;">
+                              <img style="min-height: 200px; max-height: 200px;"  src="https://www.zschimmer-schwarz.es/app/uploads/2021/10/que-es-el-carbono-usos-del-carbono-propiedades-fisicas-y-quimicas-del-carbono-1280x720.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">El carbono</h5>
+                <p class="card-text">El carbono es el elemento de aleacion principal de los aceros.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+            <div class="card" style="min-height: 400px; max-height: 400px;">
+              <img style="min-height: 200px; max-height: 200px;"  src="https://www.entrenamiento.com/wp-content/uploads/2017/07/carbon-activado.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">EL carbon activado</h5>
+                <p class="card-text">El carbon activado se emplea en sistemas de filtrado y purificacion de agua.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div style="margin-top: 100px; margin: 0 25px" class="content content1" id="Fiji">
+        <h1
+          class="text-center"
+          style="border-bottom: 1px solid gray; padding: 50px"
+        >
+        INFORMACION ADICIONAL
+  
+        </h1>
+  
+        <div class="container">
+          <div class="row">
+            <div style="margin: 25px 0;" class="col-sm-6 col-md-6">
+              <div class="card" style="min-height: 400px; max-height: 400px;">
+                                <img style="min-height: 390px; max-height: 390px;"  src="qrcode_www.bbva.com.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 style="text-align: center;" class="card-title">El petroleo</h5>
+                </div>
+              </div>
+            </div>
+            <div style="margin: 25px 0;" class="col-sm-6 col-md-6">
+              <div class="card" style="min-height: 400px; max-height: 400px;">
+                <iframe width="600" height="390" src="https://www.youtube.com/embed/TYgcO6y2W6w?si=TqC8dd-wKlPg0jFY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="card-body">
+                  <h5 style="text-align: center;" class="card-title">Carbono</h5>
+                </div>
+              </div>
+            </div>
+        </div>
+      <br><br><br>
+    <footer style="background-color: #ff4949;" class="text-white py-3 mt-auto">
+      <div class="container">
+        <div class="row">
+          <div>
+            <h1 style=" text-align: center; font-weight: bolder; font-size: 50px">QUIMICA</h1>
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>&copy; 2024 Jhosuan Ali Gonzalez</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+// Obtener el elemento del interruptor de cambio
+const switchCheckbox = document.getElementById('flexSwitchCheckChecked');
+// Obtener el elemento nav
+const nav = document.getElementById('myNav');
+
+// Agregar un evento de escucha para el cambio en el interruptor
+switchCheckbox.addEventListener('change', function() {
+  if (this.checked) {
+    // Si el interruptor está marcado (modo oscuro)
+    document.body.classList.add('dark-mode');
+    nav.classList.add('navbar', 'bg-dark', 'border-bottom', 'border-bottom-dark');
+    nav.setAttribute('data-bs-theme', 'dark');
+  } else {
+    // Si el interruptor no está marcado (modo claro)
+    document.body.classList.remove('dark-mode');
+    nav.classList.remove('navbar-dark', 'bg-dark');
+    nav.removeAttribute('data-bs-theme');
+  }
+});
+
+      </script>
+  </body>
+</html>
